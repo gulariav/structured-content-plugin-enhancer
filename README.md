@@ -1,7 +1,7 @@
 ## Structured Content Plugin Enhancer
 
 Contributors: gulariav <br/>
-Version: 1.0.1 <br/>
+Version: 1.0.2 <br/>
 Tags: structured-content, collapsible-div<br/>
 Requires at least: 3.5<br/>
 Tested up to: 5.0.3<br/>
