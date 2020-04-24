@@ -7,10 +7,10 @@ jQuery(document).ready(function(){
     });
 
     
-    $(".faq-data").hide();
+    jQuery(".faq-data").hide();
     
-    $(".faq-btn").click(function() {
-        $(this).toggleClass("toggle_active").next().slideToggle("fast");
+    jQuery(".faq-btn").click(function() {
+        jQuery(this).toggleClass("toggle_active").next().slideToggle("fast");
         return false
     })
     

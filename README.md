@@ -1,7 +1,7 @@
 ## Structured Content Plugin Enhancer
 
 Contributors: gulariav <br/>
-Version: 1.0.3 <br/>
+Version: 1.0.4 <br/>
 Tags: structured-content, collapsible-div<br/>
 Requires at least: 3.5<br/>
 Tested up to: 5.0.3<br/>
@@ -40,6 +40,12 @@ To make any div collapsible, add elements in this format.
 
 ### Changelog
 --------
+
+##### 1.0.4
+Changed the hook to add the scripts.<br/>
+Lower the priority to add the js, so that it loads in the end.<br/>
+updated js file for jQuery default method<br/>
+Readme file update
 
 ##### 1.0.3
 Added Support for fontawesome 4.x<br/>

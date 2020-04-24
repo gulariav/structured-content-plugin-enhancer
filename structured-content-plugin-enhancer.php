@@ -7,17 +7,17 @@ Author: Vishal Gularia
 Author URI: https://github.com/gulariav/
 Requires at least: 3.5
 Tested up to: 5.0.3
-Version: 1.0.3
+Version: 1.0.4
 License: GPL v2 or later
 package scpe
 */
 
 
-// Hook to the 'init' action, which is called after WordPress is finished loading the core code
-add_action( 'init', 'add_scpe_scripts' );
+// Load the plugin scripts
+add_action( 'wp_enqueue_scripts', 'add_scpe_scripts', 99 );
 
 
-// Remove the 'add_My_Meta_Tags' function from the wp_head action hook
+// Enqueue plugin scripts and styles across the site. 
 function add_scpe_scripts()
 {
 	// Register the Javascript, dependency with jquery
