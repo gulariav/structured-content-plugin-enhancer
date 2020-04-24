@@ -1,13 +1,13 @@
 <?php 
 /*
 Plugin Name: Structured Content Plugin Enhancer
-Description: This plugin is an extension of "Structured Content (JSON-LD) #wpsc" to change its layout to Collapsable section by adding this css class to it "collapsible-faq". Also provide options to make any div collapsible. For Documentation, please visit plugin site.
+Description: This plugin is an extension of "Structured Content (JSON-LD) #wpsc" to change its layout to Collapsable section by adding this css class to it "collapsible-faq". Also provide options to make any div collapsible. For Documentation, Please visit Plugin site.
 Plugin URI: https://github.com/gulariav/structured-content-plugin-enhancer
 Author: Vishal Gularia
-Author URI: http://github.com/gulariav/
+Author URI: https://github.com/gulariav/
 Requires at least: 3.5
 Tested up to: 5.0.3
-Version: 1.0.2
+Version: 1.0.3
 License: GPL v2 or later
 package scpe
 */
@@ -20,14 +20,14 @@ add_action( 'init', 'add_scpe_scripts' );
 // Remove the 'add_My_Meta_Tags' function from the wp_head action hook
 function add_scpe_scripts()
 {
-	//Register the Javascript, dependency with jquery
+	// Register the Javascript, dependency with jquery
 	wp_enqueue_script( 'scpe-script', plugin_dir_url( __FILE__ ) . 'js/scpe.js', array('jquery'), '', true );
 
-	//Register the Javascript, dependency Font awesome 5
 
-	$fontawesome_version_available = 5; 
+	//Register the stylesheet for exapand icon, dependency Font awesome 5 or less.
+	$fontawesome_version_available = 4; 
 
-	switch ($fontawesome_version_available == 5) 
+	switch ($fontawesome_version_available) 
 	{
 		case 5:
 			//Include css based on Font awesome 4.

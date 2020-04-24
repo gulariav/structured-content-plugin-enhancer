@@ -121,14 +121,15 @@ CSS for making generic div element collapsible
 
 
 /*
-Support for Font Awesome 5 only
+Support for Font Awesome 4 only
 
 */
 .collapsible-faq > div > h2:before, .faq-btn:before {
-    font-family: "Font Awesome\ 5 Free";
+    font-family: "FontAwesome";
     content: "\f067";
 }
 
 .collapsible-faq > div > h2.toggle_active:before, .faq-btn.active:before {   
     content: "\f068";
+    font-family: "FontAwesome";
 }
