@@ -23,7 +23,7 @@ To make any structured content output collapsible, add this class "collapsible-f
 
 
 <pre>
-[sc_fs_faq sc_id="fs_faqa9dmd5mzj" html="true" headline="h2" img="" question="The Sign Distillery is an independently-owned full-service commercial signage " img_alt="" css_class="collapsible-faq" ]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus sed erat malesuada aliquet vel vel lorem. Etiam eget vehicula nisl, at imperdiet mauris. Suspendisse aliquet dictum neque id condimentum.[/sc_fs_faq]
+[sc_fs_faq sc_id="fs_faqa9dmd5mzj" html="true" headline="h2" img="" question="Example Heading of FAQ" img_alt="" css_class="collapsible-faq" ]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus sed erat malesuada aliquet vel vel lorem. Etiam eget vehicula nisl, at imperdiet mauris. Suspendisse aliquet dictum neque id condimentum.[/sc_fs_faq]
 </pre>
 
 
