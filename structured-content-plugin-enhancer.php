@@ -2,7 +2,7 @@
 /*
 Plugin Name: Structured Content Plugin Enhancer
 Description: This plugin is an extension of "Structured Content (JSON-LD) #wpsc" to change its layout to Collapsable section by adding this css class to it "collapsible-faq". Also provide options to make any div collapsible. For Documentation, please visit plugin site.
-Plugin URI: http://github.com/gulariav/
+Plugin URI: https://github.com/gulariav/structured-content-plugin-enhancer
 Author: Vishal Gularia
 Author URI: http://github.com/gulariav/
 Requires at least: 3.5
