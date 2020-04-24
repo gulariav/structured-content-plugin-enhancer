@@ -27,9 +27,9 @@ To make any structured content output collapsible, add this class "collapsible-f
 </pre>
 
 
-To make any div collapsible, add classes in this format.
+**How to make a div collapsible**
 
-**To make a _div_  collapsible** 
+To make any div collapsible, add elements in this format.
 
 ```html
 <div class="faq-btn">Title</div>
