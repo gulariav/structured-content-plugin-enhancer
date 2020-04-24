@@ -41,5 +41,13 @@ To make any div collapsible, add classes in this format.
 ### Changelog
 --------
 
+##### 1.0.2
+Moved script to load in footer<br/>
+Readme file update
+
+##### 1.0.1
+Update plugin URI in plugin header<br/>
+Readme file update
+
 ##### 1.0.0
 Initial Release<br/>

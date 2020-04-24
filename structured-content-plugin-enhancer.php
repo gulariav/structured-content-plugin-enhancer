@@ -7,7 +7,7 @@ Author: Vishal Gularia
 Author URI: http://github.com/gulariav/
 Requires at least: 3.5
 Tested up to: 5.0.3
-Version: 1.0.1
+Version: 1.0.2
 License: GPL v2 or later
 package scpe
 */
@@ -21,7 +21,7 @@ add_action( 'init', 'add_scpe_scripts' );
 function add_scpe_scripts()
 {
 	//Register the Javascript, dependency with jquery
-	wp_enqueue_script( 'scpe-script', plugin_dir_url( __FILE__ ) . 'js/scpe.js', array('jquery'), true );
+	wp_enqueue_script( 'scpe-script', plugin_dir_url( __FILE__ ) . 'js/scpe.js', array('jquery'), '', true );
 
 	//Register the Javascript, dependency Font awesome 5
 
