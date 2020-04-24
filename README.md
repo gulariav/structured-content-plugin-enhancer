@@ -15,7 +15,7 @@ https://wordpress.org/plugins/structured-content/
 
 ### Usage
 
-** How to make structured content output collapsible** 
+**How to make structured content output collapsible** 
 
 To make any structured content output collapsible, add this class "collapsible-faq". See example below:
 
