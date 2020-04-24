@@ -1,0 +1,125 @@
+/*
+CSS for making structured content plugin output collapsible
+*/
+
+.collapsible-faq {
+    margin-bottom: 25px;
+	}
+
+.collapsible-faq > div > h2 {
+    line-height: 30px;
+    font-size: 0.895em;
+    color: #3661a1;
+    background: #dddeee;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px #bdbdbd;
+    cursor: pointer;
+    margin: 0 0 0;
+    padding: 5px 20px 5px 15px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.collapsible-faq > div > h2:before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f067";
+    font-weight: 600;
+    color: #111;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
+    font-size: 14px;
+    float: right;
+}
+
+.collapsible-faq > div > div {
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    /*box-shadow: 0 0 1px #bdbdbd;*/
+    margin: 0px 0 15px;
+    overflow: auto;
+    padding: 20px 2% 5px 2%;
+    width: 100%;
+    font-size: 0.842em;
+    display: none;
+}
+
+.collapsible-faq > div > h2.toggle_active {
+    border-radius: 3px 3px 0 0;
+    background: #1c2536;
+}
+
+.collapsible-faq > div > h2:hover,
+.collapsible-faq > div > h2:active,
+.collapsible-faq > div > h2:focus,
+.collapsible-faq > div > h2.toggle_active {
+    background:#1C2536;
+    color:#fff; 
+}
+
+.collapsible-faq > div > h2:hover:before,
+.collapsible-faq > div > h2:focus:before,
+.collapsible-faq > div > h2:active:before,
+.collapsible-faq > div > h2.toggle_active {
+    color:#fff; 
+}
+
+.collapsible-faq > div > h2.toggle_active:before {
+    content: "\f068";
+    color: #fff;
+}
+
+
+/*
+CSS for making generic div element collapsible
+*/
+
+.faq-sec {
+    width: 100%;
+    clear: both;
+    padding: 30px 0;
+}
+.faq-btn {
+    background: #dddeee;
+    display: block;
+    cursor:pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+
+}
+.faq-btn:before {
+    font-family: "Font Awesome\ 5 Free";
+    content:"\f067";
+    font-weight:600;
+    color:#111;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:10px;
+    font-size: 14px;
+}
+.faq-btn:hover,
+.faq-btn:active,
+.faq-btn:focus,
+.faq-btn.active{
+    background:#077DA9;
+    color:#fff; 
+}
+.faq-btn:hover:before,
+.faq-btn:focus:before,
+.faq-btn:active:before,
+.faq-btn.active:before{
+    color:#fff; 
+}
+.faq-btn.active:before{
+    content:"\f068";
+    color:#fff;
+}
+.faq-data{
+    clear:both;
+    padding:30px 0 0 0; 
+    display: none;
+    font-size: 16px;
+    border: 1px solid #d2d2d2;
+    padding: 10px 15px;
+}
