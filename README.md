@@ -41,6 +41,11 @@ To make any div collapsible, add elements in this format.
 ### Changelog
 --------
 
+##### 1.1.1
+Added support for expand without fontawesome.<br/>
+Changed toggle class to active in js file.<br/>
+Readme file update
+
 ##### 1.0.4
 Changed the hook to add the scripts.<br/>
 Lower the priority to add the js, so that it loads in the end.<br/>

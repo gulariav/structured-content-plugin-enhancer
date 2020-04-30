@@ -1,0 +1,104 @@
+/*
+CSS for making structured content plugin output collapsible
+*/
+
+.collapsible-faq {
+    margin-bottom: 25px;
+    }
+
+.collapsible-faq > div > h2 {
+    line-height: 30px;
+    font-size: 0.895em;
+    color: #3661a1;
+    background: #dddeee;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px #bdbdbd;
+    cursor: pointer;
+    margin: 0 0 0;
+    padding: 5px 4% 5px 20px;
+    width: 100%;
+    font-weight: 500;
+    background-color: #dddeee;
+    background-image: url("../img/plus.png");
+    background-repeat:  no-repeat;
+    background-position: 98% center;
+}
+
+
+.collapsible-faq > div > div {
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    /*box-shadow: 0 0 1px #bdbdbd;*/
+    margin: 0px 0 15px;
+    overflow: auto;
+    padding: 20px 2% 5px 2%;
+    width: 100%;
+    font-size: 0.842em;
+    display: none;
+}
+
+.collapsible-faq > div > h2.toggle_active {
+    background-image: url("../img/minus.png");
+    background-repeat: no-repeat;
+}
+
+/*.collapsible-faq > div > h2:hover,
+.collapsible-faq > div > h2:active,
+.collapsible-faq > div > h2:focus {
+    background:#1C2536;
+    color:#fff; 
+}*/
+
+
+
+
+/*
+CSS for making generic div element collapsible
+*/
+
+.faq-sec {
+    width: 100%;
+    clear: both;
+    padding: 30px 0;
+}
+
+.faq-btn {
+    background-color: #dddeee;
+    background-image: url("../img/plus.png");
+    background-repeat:  no-repeat;
+    background-position: 98% center;
+    display: block;
+    cursor:pointer;
+    padding: 10px 4% 10px 20px;
+    font-size: 16px;
+
+}
+
+
+/*.faq-btn:hover,
+.faq-btn:active,
+.faq-btn:focus {
+    background:#077DA9;
+    color:#fff; 
+}*/
+
+
+
+.faq-btn.active {
+    background-image: url("../img/minus.png");
+    background-repeat: no-repeat;
+}
+
+
+.faq-data{
+    clear:both;
+    padding:30px 0 0 0; 
+    display: none;
+    font-size: 16px;
+    border: 1px solid #d2d2d2;
+    padding: 10px 15px;
+}
+
+
+

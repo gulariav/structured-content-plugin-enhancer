@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
     jQuery(".faq-data").hide();
     
     jQuery(".faq-btn").click(function() {
-        jQuery(this).toggleClass("toggle_active").next().slideToggle("fast");
+        jQuery(this).toggleClass("active").next().slideToggle("fast");
         return false
     })
     

@@ -30,7 +30,7 @@ function add_scpe_scripts()
 	switch ($fontawesome_version_available) 
 	{
 		case 5:
-			//Include css based on Font awesome 4.
+			//Include css based on Font awesome 5.
 			wp_enqueue_style('scpe-fa5', plugin_dir_url( __FILE__ ) . 'css/scpe_fa5.css');
 			break;
 
