@@ -7,7 +7,7 @@ Author: Vishal Gularia
 Author URI: https://github.com/gulariav/
 Requires at least: 3.5
 Tested up to: 5.0.3
-Version: 1.0.4
+Version: 1.1.1
 License: GPL v2 or later
 package scpe
 */
